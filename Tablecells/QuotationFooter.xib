@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14835.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14790.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pA3-95-SMW" customClass="QuotationFooter" customModule="Technician" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="22"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQY-AJ-0yI">
+                    <rect key="frame" x="0.0" y="56" width="430" height="22"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$500.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="tVn-k0-6gs">
+                            <rect key="frame" x="379" y="0.0" width="44" height="21"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="XDs-7E-rZP"/>
+                                <constraint firstAttribute="height" constant="21" id="ZIf-oH-AqR"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub Total" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="HPx-o1-A7s">
+                            <rect key="frame" x="245" y="0.0" width="98" height="21"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="98" id="8hs-I5-P7F"/>
+                                <constraint firstAttribute="height" constant="21" id="s8q-Tf-NHS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="tVn-k0-6gs" firstAttribute="top" secondItem="qQY-AJ-0yI" secondAttribute="top" id="4J3-Ld-Xhc"/>
+                        <constraint firstItem="tVn-k0-6gs" firstAttribute="leading" secondItem="HPx-o1-A7s" secondAttribute="trailing" constant="36" id="5eg-nv-Kvi"/>
+                        <constraint firstItem="HPx-o1-A7s" firstAttribute="top" secondItem="qQY-AJ-0yI" secondAttribute="top" id="6JA-ge-FuZ"/>
+                        <constraint firstAttribute="trailing" secondItem="tVn-k0-6gs" secondAttribute="trailing" constant="7" id="ivg-vo-jJa"/>
+                        <constraint firstAttribute="bottom" secondItem="tVn-k0-6gs" secondAttribute="bottom" constant="1" id="lIn-km-2Bj"/>
+                        <constraint firstAttribute="bottom" secondItem="HPx-o1-A7s" secondAttribute="bottom" constant="1" id="uoE-vW-K57"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I7m-Ry-YLG" firstAttribute="bottom" secondItem="qQY-AJ-0yI" secondAttribute="bottom" constant="22" id="GUz-2a-0hy"/>
+                <constraint firstItem="qQY-AJ-0yI" firstAttribute="top" secondItem="I7m-Ry-YLG" secondAttribute="top" constant="12" id="SAe-VZ-hpD"/>
+                <constraint firstItem="qQY-AJ-0yI" firstAttribute="trailing" secondItem="I7m-Ry-YLG" secondAttribute="trailing" id="h8T-za-RFw"/>
+                <constraint firstItem="qQY-AJ-0yI" firstAttribute="leading" secondItem="I7m-Ry-YLG" secondAttribute="leading" id="pKK-u7-cS8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="I7m-Ry-YLG"/>
+            <point key="canvasLocation" x="133.33333333333334" y="291.96428571428572"/>
+        </view>
+    </objects>
+</document>

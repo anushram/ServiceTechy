@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LibraryOptionPopUp" customModule="Technician" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="164"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lcz-yp-snJ">
+                    <rect key="frame" x="16" y="9" width="340" height="101"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pG6-ID-nPR">
+                            <rect key="frame" x="8" y="53" width="324" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="iWa-sF-gvM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Photo Library">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iF-Hp-d04">
+                            <rect key="frame" x="8" y="8" width="324" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="KX4-zw-txh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Camera">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="pG6-ID-nPR" firstAttribute="top" secondItem="0iF-Hp-d04" secondAttribute="bottom" constant="5" id="DBj-NW-ZYp"/>
+                        <constraint firstItem="0iF-Hp-d04" firstAttribute="top" secondItem="Lcz-yp-snJ" secondAttribute="top" constant="8" id="STv-Za-YHd"/>
+                        <constraint firstAttribute="trailing" secondItem="0iF-Hp-d04" secondAttribute="trailing" constant="8" id="T21-Pa-7Pc"/>
+                        <constraint firstAttribute="trailing" secondItem="pG6-ID-nPR" secondAttribute="trailing" constant="8" id="WYW-tF-wpF"/>
+                        <constraint firstAttribute="height" constant="101" id="gwR-1J-Cs9"/>
+                        <constraint firstItem="pG6-ID-nPR" firstAttribute="leading" secondItem="Lcz-yp-snJ" secondAttribute="leading" constant="8" id="rdc-kP-pJN"/>
+                        <constraint firstItem="0iF-Hp-d04" firstAttribute="leading" secondItem="Lcz-yp-snJ" secondAttribute="leading" constant="8" id="wsM-FZ-YVj"/>
+                        <constraint firstAttribute="bottom" secondItem="pG6-ID-nPR" secondAttribute="bottom" constant="8" id="ztk-B0-afE"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odE-Lc-9Zh">
+                    <rect key="frame" x="16" y="114" width="340" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="2Tg-OD-MsY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="odE-Lc-9Zh" firstAttribute="top" secondItem="Lcz-yp-snJ" secondAttribute="bottom" constant="4" id="6Ej-3x-2KG"/>
+                <constraint firstItem="odE-Lc-9Zh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="Ch1-FY-FMi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="odE-Lc-9Zh" secondAttribute="trailing" constant="14" id="MLZ-Pc-0xe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="odE-Lc-9Zh" secondAttribute="bottom" constant="10" id="OFz-zJ-aCa"/>
+                <constraint firstItem="Lcz-yp-snJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="bte-Ld-yEL"/>
+                <constraint firstItem="Lcz-yp-snJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="9" id="k6K-8g-wmg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Lcz-yp-snJ" secondAttribute="trailing" constant="14" id="siz-Tn-iIg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="cameraLibrarybtn" destination="0iF-Hp-d04" id="bAs-Vq-zau"/>
+                <outlet property="cancelbtn" destination="odE-Lc-9Zh" id="uTK-Bh-GUV"/>
+                <outlet property="photoLibrarybtn" destination="pG6-ID-nPR" id="zZC-d2-vVT"/>
+            </connections>
+            <point key="canvasLocation" x="102.40000000000001" y="-248.27586206896552"/>
+        </view>
+    </objects>
+</document>

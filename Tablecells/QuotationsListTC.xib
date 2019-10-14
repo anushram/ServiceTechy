@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+        <array key="NotoSans-Regular.ttf">
+            <string>NotoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="quotationslist" rowHeight="112" id="tlu-SD-DIq" customClass="QuotationsListTC" customModule="Technician" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="454" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tlu-SD-DIq" id="9c1-Hr-FAi">
+                <rect key="frame" x="0.0" y="0.0" width="454" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yps-7o-Ge0">
+                        <rect key="frame" x="8" y="5" width="438" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JT00004" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TG1-c0-GzI">
+                                <rect key="frame" x="8" y="10" width="234" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="234" id="LWx-qt-fLS"/>
+                                    <constraint firstAttribute="height" constant="18" id="l0G-au-t1F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name      :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yva-6q-U33">
+                                <rect key="frame" x="8" y="32" width="75" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="4gh-uN-yKB"/>
+                                    <constraint firstAttribute="height" constant="18" id="v6d-yY-9Ue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount  :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzs-dB-XDH">
+                                <rect key="frame" x="8" y="54" width="75" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="ZqC-Vk-8zl"/>
+                                    <constraint firstAttribute="height" constant="18" id="kKc-WI-H43"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Jhonson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhT-Qv-i2e">
+                                <rect key="frame" x="91" y="32" width="219" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="HMK-U5-uEv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9600825449" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDZ-zn-4D1">
+                                <rect key="frame" x="91" y="54" width="201" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="m8X-Js-Hds"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAT 21 APR 2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7V-Se-LLt">
+                                <rect key="frame" x="318" y="6" width="112" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="2A7-rp-dlO"/>
+                                    <constraint firstAttribute="width" constant="112" id="37g-cB-OaR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ac service require, it is not working Ac service require Ac service require, it is not working Ac service require" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMf-hP-itF">
+                                <rect key="frame" x="8" y="75" width="422" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="7Pr-cw-LUY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.30 AM - 9.30 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="oE2-oP-sro">
+                                <rect key="frame" x="300" y="28" width="130" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="OTp-1T-0py"/>
+                                    <constraint firstAttribute="width" constant="130" id="Xj0-fA-HT9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSans-Regular" family="Noto Sans" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yva-6q-U33" firstAttribute="top" secondItem="TG1-c0-GzI" secondAttribute="bottom" constant="4" id="1kU-IH-N7g"/>
+                            <constraint firstItem="Yva-6q-U33" firstAttribute="leading" secondItem="Yps-7o-Ge0" secondAttribute="leading" constant="8" id="2Cc-tR-H5s"/>
+                            <constraint firstItem="oE2-oP-sro" firstAttribute="leading" secondItem="IDZ-zn-4D1" secondAttribute="trailing" constant="8" id="2ne-p9-jWU"/>
+                            <constraint firstItem="FhT-Qv-i2e" firstAttribute="leading" secondItem="Yva-6q-U33" secondAttribute="trailing" constant="8" id="5SI-Xw-2eb"/>
+                            <constraint firstItem="Zzs-dB-XDH" firstAttribute="leading" secondItem="Yps-7o-Ge0" secondAttribute="leading" constant="8" id="9dd-cK-Yjq"/>
+                            <constraint firstItem="oE2-oP-sro" firstAttribute="top" secondItem="n7V-Se-LLt" secondAttribute="bottom" constant="4" id="Dj1-os-qEN"/>
+                            <constraint firstItem="bMf-hP-itF" firstAttribute="top" secondItem="Zzs-dB-XDH" secondAttribute="bottom" constant="3" id="FZO-E8-WUB"/>
+                            <constraint firstItem="IDZ-zn-4D1" firstAttribute="top" secondItem="FhT-Qv-i2e" secondAttribute="bottom" constant="4" id="GZ7-bB-Iga"/>
+                            <constraint firstItem="n7V-Se-LLt" firstAttribute="leading" secondItem="FhT-Qv-i2e" secondAttribute="trailing" constant="8" id="GuB-jy-B6V"/>
+                            <constraint firstItem="n7V-Se-LLt" firstAttribute="top" secondItem="Yps-7o-Ge0" secondAttribute="top" constant="6" id="KNA-Qt-GBO"/>
+                            <constraint firstItem="TG1-c0-GzI" firstAttribute="leading" secondItem="Yps-7o-Ge0" secondAttribute="leading" constant="8" id="KSV-Cb-Bkc"/>
+                            <constraint firstItem="bMf-hP-itF" firstAttribute="leading" secondItem="Yps-7o-Ge0" secondAttribute="leading" constant="8" id="PVc-S9-tpY"/>
+                            <constraint firstAttribute="trailing" secondItem="bMf-hP-itF" secondAttribute="trailing" constant="8" id="Poi-HG-6qJ"/>
+                            <constraint firstAttribute="bottom" secondItem="bMf-hP-itF" secondAttribute="bottom" constant="7" id="U6v-km-4NM"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="UZ6-ZL-eo5"/>
+                            <constraint firstItem="FhT-Qv-i2e" firstAttribute="top" secondItem="TG1-c0-GzI" secondAttribute="bottom" constant="4" id="ZNS-fx-4S3"/>
+                            <constraint firstItem="TG1-c0-GzI" firstAttribute="top" secondItem="Yps-7o-Ge0" secondAttribute="top" constant="10" id="cOu-qX-0nz"/>
+                            <constraint firstAttribute="trailing" secondItem="oE2-oP-sro" secondAttribute="trailing" constant="8" id="hm2-yQ-KFp"/>
+                            <constraint firstItem="Zzs-dB-XDH" firstAttribute="top" secondItem="Yva-6q-U33" secondAttribute="bottom" constant="4" id="leS-uB-FWa"/>
+                            <constraint firstItem="IDZ-zn-4D1" firstAttribute="leading" secondItem="Zzs-dB-XDH" secondAttribute="trailing" constant="8" id="peO-bx-rfX"/>
+                            <constraint firstAttribute="trailing" secondItem="n7V-Se-LLt" secondAttribute="trailing" constant="8" id="rFj-mK-QY5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Yps-7o-Ge0" firstAttribute="leading" secondItem="9c1-Hr-FAi" secondAttribute="leading" constant="8" id="cyc-ZK-rZJ"/>
+                    <constraint firstItem="Yps-7o-Ge0" firstAttribute="top" secondItem="9c1-Hr-FAi" secondAttribute="top" constant="5" id="tA2-BN-yKd"/>
+                    <constraint firstAttribute="bottom" secondItem="Yps-7o-Ge0" secondAttribute="bottom" constant="7" id="vUv-j6-1O9"/>
+                    <constraint firstAttribute="trailing" secondItem="Yps-7o-Ge0" secondAttribute="trailing" constant="8" id="yCp-YS-HQs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="clientName" destination="FhT-Qv-i2e" id="bf2-MO-QDG"/>
+                <outlet property="jobID" destination="TG1-c0-GzI" id="q0k-HW-PQL"/>
+                <outlet property="qteDescription" destination="bMf-hP-itF" id="sml-pR-8CI"/>
+                <outlet property="quotationAmt" destination="IDZ-zn-4D1" id="12C-1m-4yu"/>
+                <outlet property="quotationDate" destination="oE2-oP-sro" id="CgN-ap-fH7"/>
+                <outlet property="quotationNumber" destination="n7V-Se-LLt" id="rta-Q3-h8L"/>
+            </connections>
+            <point key="canvasLocation" x="171.01449275362319" y="-34.151785714285715"/>
+        </tableViewCell>
+    </objects>
+</document>
